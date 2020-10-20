@@ -1,4 +1,5 @@
-if ('geolocation' in navigator){
+	
+	if ('geolocation' in navigator){
 			
 			console.log('geolocation available');
 			navigator.geolocation.getCurrentPosition(async position => {
@@ -30,3 +31,5 @@ if ('geolocation' in navigator){
 			console.log('geolocation not availabale');
 		
 		}
+	
+		
