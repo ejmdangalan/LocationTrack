@@ -6,10 +6,10 @@
 				
 				const lat = position.coords.latitude;
 				const lon = position.coords.longitude;
-				
+				const timestamp = new Date(Date.now()).toLocaleString();
 			
 				
-				const data = { lat, lon};
+				const data = { lat, lon, timestamp};
 				const options = {
 				method: 'POST',
 				headers: {
